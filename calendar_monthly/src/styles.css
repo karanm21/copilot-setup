@@ -1,0 +1,24 @@
+:root{
+  --bg:#EAE3D3;
+  --text:#2B2A24;
+  --accent:#3F5B4A;
+  --border:#C9C0A8;
+}
+*{box-sizing:border-box}
+body,html,#root{height:100%}
+body{margin:0;font-family:Inter,system-ui,Arial;background:var(--bg);color:var(--text)}
+
+.tracker-root{max-width:1200px;margin:0 auto}
+.tracker-table th,.tracker-table td{border:1px solid var(--border);padding:6px}
+.tracker-table th{background:rgba(255,255,255,0.6);font-weight:600}
+.tracker-table td{background:white}
+
+button{background:var(--accent);color:white;border:0;padding:6px 8px;border-radius:6px}
+input{padding:8px;border:1px solid var(--border);border-radius:6px}
+
+/* small circle cell */
+.tracker-table td div{display:inline-block}
+
+@media(max-width:700px){
+  .tracker-root{padding:12px}
+}
