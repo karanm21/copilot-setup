@@ -96,3 +96,32 @@ A running record of every session — what I learned, what I built, what I strug
   better this way. Keep this pace for Phase 1 onward.
 
 ---
+
+## Session 4 — August 2026
+
+**Phase:** 1.1–1.5 — Phase 1 fully complete
+**Topic:** Copilot checkpoint quiz, custom instructions, MCP server setup
+
+### What I did
+- Passed a 4-question checkpoint quiz on Copilot basics/Agent mode (100%),
+  confirming prior knowledge instead of re-teaching
+- Created `.github/copilot-instructions.md` codifying Phase 0 conventions;
+  verified live that Copilot correctly reads and cites it
+- Configured the official GitHub MCP server via VS Code's Add Server UI
+  (HTTP type, zero local setup)
+- Verified MCP end-to-end: used Copilot Agent mode to create a real GitHub
+  issue via the MCP tool, confirmed it landed on github.com
+- Covered custom MCP server building conceptually only (deferred hands-on
+  build to Phase 5)
+
+### Checkpoint
+- [x] Phase 1 fully complete — all 5 subtopics done
+
+### Notes
+- Noticed a "trust tier" pattern: official/verified MCP servers get lighter
+  per-action confirmation than untrusted ones would — worth being more
+  cautious once connecting less-established or higher-stakes servers later.
+- Established new documentation habit: intuitive analogies go directly in
+  the README "Concepts" sections going forward, not just technical facts.
+
+---

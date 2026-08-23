@@ -1,19 +1,17 @@
-# 1.5-custom-mcp-server
+# 1.5-custom-mcp-server (light intro)
 
 ## Concepts
-_Notes go here as you learn_
+Deliberately not building one yet — deferred to Phase 5, once agent
+concepts (tools, why an agent needs them) are understood first.
 
-## Exercise
-_What you built / ran_
+**Intuition:** if a pre-built MCP server (like GitHub's) is a phone line
+someone else installed for you, building your own is becoming the phone
+company for a capability you own — you decide exactly which few actions
+get exposed and describe them clearly enough for an AI to know when to use them.
 
-## Key Commands / Code
-```bash
-# commands here
-```
+- Built with the `mcp` Python/TypeScript package
+- Each tool = a decorated function: name, description, typed inputs
+- Not fundamentally more complex than the async functions from Phase 0.1
 
 ## Checkpoint
-- [ ] Task 1
-- [ ] Task 2
-
-## Notes & Things to Revisit
--
+- [x] Conceptual understanding only — deferred to Phase 5 for the real build
