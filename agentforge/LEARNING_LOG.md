@@ -70,3 +70,29 @@ A running record of every session — what I learned, what I built, what I strug
   LEARNING_LOG.md entry every session, commit+push docs alongside code.
 
 ---
+
+## Session 3 — August 2026
+
+**Phase:** 0.3, 0.4, 0.5 — Phase 0 fully complete
+**Topic:** REST APIs (POST/auth), terminal (grep/pipes/permissions), networking mental model
+
+### What I did
+- Walked through POST + Authorization headers piece by piece (payload →
+  headers → async client.post → response parsing), built and ran
+  `post_auth_demo.py`, verified both payload and auth token round-tripped
+  correctly via httpbin.org
+- Ran grep, pipes, and permissions commands with the "highlighter /
+  assembly line / hotel keycard" mental models
+- Ran a local HTTP server, accessed via localhost, then accessed from a
+  phone on the same WiFi using the machine's real network IP — directly
+  observed the localhost vs network-address distinction
+
+### Checkpoint
+- [x] Phase 0 fully complete — all 5 subtopics done
+
+### Notes
+- Learned to slow down and build intuition (analogies) before typing any
+  code, rather than dropping full files at once — retained concepts much
+  better this way. Keep this pace for Phase 1 onward.
+
+---
