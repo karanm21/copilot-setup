@@ -1,0 +1,14 @@
+{
+  "name": "python-mcp-toolkit",
+  "version": "1.0.0",
+  "description": "Python MCP development toolkit — clean code skills bundled with a Python MCP coding agent",
+  "author": "karanm21",
+  "skills": [
+    "../../skills/refactor",
+    "../../skills/review-and-refactor",
+    "../../skills/prompt-optimizer"
+  ],
+  "agents": [
+    "../../agents/python-mcp-coder.agent.md"
+  ]
+}
