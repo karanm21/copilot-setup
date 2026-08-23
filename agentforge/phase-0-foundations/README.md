@@ -7,15 +7,14 @@
 | # | Topic | Status |
 |---|-------|--------|
 | 0.1 | Python for Real Projects | ✅ Done |
-| 0.2 | Git & GitHub Workflows | 🔵 Partial — config/SSH/commit/push done; branching + PRs remaining |
-| 0.3 | REST APIs & HTTP | 🔵 Mostly covered via 0.1 exercise; POST/auth patterns remaining |
+| 0.2 | Git & GitHub Workflows | ✅ Done |
+| 0.3 | REST APIs & HTTP | 🔵 Partial — GET/status/headers covered via 0.1; POST/auth remaining |
 | 0.4 | Terminal & Linux Basics | 🔵 Partial — daily-use commands solid; grep/pipes/permissions remaining |
 | 0.5 | Networking Mental Model | ⬜ Not started |
 
 ## Checkpoint
 - [x] Can structure a Python project properly
-- [x] Comfortable with git from the terminal (basics)
-- [ ] Comfortable with git branching + pull requests
+- [x] Comfortable with git branching, PRs, and merging
 - [x] Can read and call a REST API (GET, status codes, headers, timeouts)
 - [ ] Can call POST/PUT/DELETE with auth headers
 - [x] Comfortable in Terminal (navigate, basic file ops)

@@ -36,3 +36,37 @@ A running record of every session — what I learned, what I built, what I strug
 
 ---
 <!-- Add new sessions below this line, newest at the top -->
+
+## Session 2 — August 2026
+
+**Phase:** 0.1 (Python) ✅, 0.2 (Git/GitHub) ✅, plus agent tooling setup
+**Topic:** Async Python exercise, git branching + PRs, custom Copilot agents
+
+### What I did
+- Built `fetch_weather.py`: async httpx CLI tool with .env config, retries,
+  error handling — completed Phase 0.1
+- Practiced reviewing Copilot-generated code against actual requirements
+  (caught sync-vs-async drift, wrong env var names, unrequested complexity
+  across 3 iterations)
+- Learned git branching workflow: created feature branch, committed, pushed,
+  opened and merged first Pull Request, cleaned up locally — completed Phase 0.2
+- Created two custom Copilot agents in `.github/agents/`:
+  `python-mcp-coder.agent.md` (improved existing one) and
+  `agentforge-mentor.agent.md` (new — encodes the teaching/doc-sync approach
+  used in this learning series, invokable via @agentforge-mentor in Copilot Chat)
+
+### Checkpoint
+- [x] Phase 0.1 fully complete
+- [x] Phase 0.2 fully complete
+- [x] Custom agents committed to repo
+
+### Notes
+- Key meta-lesson: Copilot output needs active review, not passive acceptance
+  — it will confidently produce code that's well-written but doesn't match
+  the actual goal, and will drift further if patched iteratively instead of
+  restarted clean.
+- Established standing practice: subtopic README updated the moment an
+  exercise is verified, phase README updated when all subtopics done,
+  LEARNING_LOG.md entry every session, commit+push docs alongside code.
+
+---
