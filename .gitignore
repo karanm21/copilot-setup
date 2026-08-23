@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables — NEVER commit these
+.env
+.env.local
+.env.*.local
+
+# AWS credentials — NEVER commit these
+.aws/
+*.pem
+*.key
+
+# IDE
+.vscode/settings.json
+.idea/
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
